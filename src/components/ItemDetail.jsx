@@ -21,7 +21,7 @@ const ItemDetail = ({ detalle }) => {
           icon:'success',
           title: `Agregaste ${detalle.name} al carrito`,
           showCancelButton:false,
-            background: '#fff0f5',
+          background: '#fff0f5',
           timer:1500
       
          })
