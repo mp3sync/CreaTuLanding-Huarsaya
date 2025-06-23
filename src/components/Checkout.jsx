@@ -78,7 +78,7 @@ const CheckoutUseForm = () => {
           <div className="text-center">
             <h2 className="mb-3">🎉 ¡Tu orden kawaii fue generada!</h2>
             <h5>ID: {orderId}</h5>
-            <Link to='/' className='btn btn-dark mt-3'>Volver a comprar</Link>
+            <Link to='/' className='btn btn-primary mt-3'>Volver a comprar</Link>
           </div>
         ) : (
           <>

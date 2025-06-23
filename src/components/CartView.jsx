@@ -8,19 +8,26 @@ const CartView = () => {
     const { cart, cartTotal, clear } = useContext(CartContext);
     const preConfirm = () => {
      Swal.fire({
-              title: '¿Estás seguro de borrar todos los productos?',
+              title: '¿Vaciar carrito? 🛒',
+              text: '¿Estás segur@ de eliminar todos los productos?',
               showDenyButton:true,
               denyButtonText: 'No',
-               background: '#fff0f5',
-              confirmButtonText: 'Si',
+              background: '#fff0f5',
+              confirmButtonText: 'Sí, eliminar 💔',
             
               
-             }).then((result)=>{
-                if(result.isConfirmed){
-                    clear()
-                }
+           }).then((result) => {
+      if (result.isConfirmed) {
+        clear();
+        Swal.fire({
+          icon: 'success',
+          title: 'Carrito vacío',
+          text: 'Todos los productos han sido eliminados 🧹',
+          confirmButtonColor: '#ff69b4',
+          background: '#fff0f5'
+        });
 
-
+}
 
              })
 
@@ -30,7 +37,7 @@ const CartView = () => {
         <div className="container mt-5 pt-5">
             <h2 className="mb-4">Tu carrito</h2>
 
-            {/* Encabezados de tabla */}
+          
             <div className="row fw-bold text-center border-bottom pb-2">
                 <div className="col-4">Producto</div>
                 <div className="col-2">Precio unitario</div>
@@ -39,12 +46,12 @@ const CartView = () => {
                 <div className="col-2"></div>
             </div>
 
-            {/* Items del carrito */}
+          
             {cart.map((compra) => (
                 <CartItem key={compra.id} compra={compra} />
             ))}
 
-            {/* Total */}
+
             <div className="text-end mt-4 fs-5">
                 Total a pagar: <strong>s/ {cartTotal().toFixed(2)}</strong>
             </div>

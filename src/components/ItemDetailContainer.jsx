@@ -28,7 +28,7 @@ useEffect (()=>{
     .catch ((error)=> console.log (error))
     .finally(()=> setCargando(false))
 
-    
+
 
 },[])
 
@@ -36,7 +36,7 @@ useEffect (()=>{
         return(
             <div className="mt-5 pt-5" >
                 <h2>El producto no existe</h2>
-                <Link className='btn btn-dark'to= '/'>Volver al Inicio</Link>
+                <Link className='btn btn-primary'to= '/'>Volver al Inicio</Link>
             </div>
         )
     }

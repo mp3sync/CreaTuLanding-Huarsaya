@@ -5,7 +5,7 @@ const Error = () => {
   return (
     <div style={{ padding: '100px' }}>
         <h2>La ruta no existe</h2>
-        <Link className= 'btn btn-dark' to='/'>Volver a home</Link>
+        <Link className= 'btn btn-primary' to='/'>Volver a home</Link>
     </div>
   )
 }

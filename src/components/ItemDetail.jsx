@@ -54,8 +54,8 @@ const ItemDetail = ({ detalle }) => {
             alignItems: 'center',
             margin: '0 auto' 
           }}>
-            <Link to='/' className='btn btn-dark'>Seguir comprando</Link>
-            <Link to='/cart' className='btn btn-outline-dark'>Ir al carrito</Link>
+            <Link to='/' className='btn btn-primary'>Seguir comprando</Link>
+            <Link to='/cart' className='btn btn-outline-primary'>Ir al carrito</Link>
           </div>
           : <ItemCount stock={detalle.stock} onAdd={onAdd} />}
        
