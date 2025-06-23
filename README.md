@@ -10,14 +10,6 @@ Este proyecto fue desarrollado como entrega final del curso de React, utilizando
 ## 🚀 Instalación
 
 1. Clona el repositorio.
-2. Ingresa a la carpeta del proyecto:
-
-   ```bash
-   cd ProyectoFinal-HuarsayaC
-
-### 🚀 Instalación 
-
-1. Clone el repositorio
 2. Haga el comando `ProyectoFinal-HuarsayaC` para moverse a la carpeta del proyecto
 3. Instale dependencias con el comando `npm install`
 4. Para levantar la app en el servidor local ejecute el comando `npm run dev`
