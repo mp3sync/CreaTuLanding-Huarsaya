@@ -1,26 +1,16 @@
 import Item from "../components/Item";
 
-const product = [
-      {
-    "id": "1",
-    "name": "Lápiz HB Clásico",
-    "price": 1.5,
-    "description": "Lápiz de grafito de alta calidad.",
-    "stock": 15,
-    "img": "https://i.postimg.cc/nrfSZf9h/lapicero-01.webp",
-    "category": "Lápices"
-  },
-  {
-    "id": "2",
+export const product = [
+     
+ {
     "name": "Lápiz de Colores Prismáticos",
-    "price": 2.0,
+    "price": 2,
     "description": "Colores vivos para tus dibujos.",
     "stock": 20,
     "img": "https://i.postimg.cc/NF8JjCR7/lapicero-02.webp",
     "category": "Lápices"
   },
   {
-    "id": "3",
     "name": "Lápiz Negro Profesional",
     "price": 2.5,
     "description": "Ideal para bocetos y sombreado.",
@@ -29,7 +19,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "4",
     "name": "Lápiz Bicolor Escolar",
     "price": 1.2,
     "description": "Rojo y azul para correcciones.",
@@ -38,7 +27,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "5",
     "name": "Lápiz Decorado Kawaii",
     "price": 2.3,
     "description": "Diseños tiernos y funcionales.",
@@ -47,7 +35,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "6",
     "name": "Set de Lápices Artísticos",
     "price": 5.0,
     "description": "Ideal para artistas profesionales.",
@@ -56,7 +43,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "7",
     "name": "Lápiz con Goma de Unicornio",
     "price": 1.8,
     "description": "Perfecto para escolares.",
@@ -65,7 +51,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "8",
     "name": "Lápiz Triangular Ergonómico",
     "price": 1.6,
     "description": "Mejor agarre para escribir.",
@@ -74,7 +59,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "9",
     "name": "Lápiz Vintage de Madera",
     "price": 3.0,
     "description": "Estilo retro, escritura suave.",
@@ -83,7 +67,6 @@ const product = [
     "category": "Lápices"
   },
   {
-    "id": "10",
     "name": "Lápiz con Mensajes Positivos",
     "price": 2.1,
     "description": "Incluye frases motivadoras.",
@@ -91,9 +74,7 @@ const product = [
     "img": "https://i.postimg.cc/zBKpx22Z/lapicero-10.webp",
     "category": "Lápices"
   },
-  // Marcadores (id 11–20)
   {
-    "id": "11",
     "name": "Marcador Permanente Negro",
     "price": 3.5,
     "description": "Ideal para escribir sobre todo tipo de superficies.",
@@ -102,7 +83,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "12",
     "name": "Set de Marcadores Fluorescentes",
     "price": 6.0,
     "description": "6 colores neón vibrantes.",
@@ -111,7 +91,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "13",
     "name": "Marcador de Pizarra Borrable",
     "price": 2.5,
     "description": "Perfecto para clases y oficinas.",
@@ -120,7 +99,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "14",
     "name": "Marcadores Pastel Kawaii",
     "price": 4.5,
     "description": "Colores suaves y adorables.",
@@ -129,7 +107,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "15",
     "name": "Marcador con Doble Punta",
     "price": 4.0,
     "description": "Punta fina y gruesa en un solo marcador.",
@@ -138,7 +115,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "16",
     "name": "Marcador a Base de Agua",
     "price": 3.5,
     "description": "No tóxico y lavable.",
@@ -147,7 +123,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "17",
     "name": "Marcador Metálico Dorado",
     "price": 3.0,
     "description": "Para detalles brillantes y elegantes.",
@@ -156,7 +131,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "18",
     "name": "Marcador Blanco para Carteles",
     "price": 3.0,
     "description": "Ideal para papel oscuro.",
@@ -165,7 +139,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "19",
     "name": "Marcador Ecológico Recargable",
     "price": 4.0,
     "description": "Cuida el planeta mientras creas.",
@@ -174,7 +147,6 @@ const product = [
     "category": "Marcadores"
   },
   {
-    "id": "20",
     "name": "Marcador de Tela",
     "price": 5.0,
     "description": "Diseñado para decorar ropa y telas.",
@@ -182,9 +154,7 @@ const product = [
     "img": "https://i.postimg.cc/763M3Gbq/marcadores-10.webp",
     "category": "Marcadores"
   },
-  // Portaminasyminas (id 21–30)
   {
-    "id": "21",
     "name": "Portaminas 0.5mm Escolar",
     "price": 2.0,
     "description": "Escritura precisa para tareas diarias.",
@@ -193,7 +163,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "22",
     "name": "Minas 0.5mm HB",
     "price": 1.0,
     "description": "Alta duración y suavidad.",
@@ -202,7 +171,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "23",
     "name": "Portaminas Profesional 0.7mm",
     "price": 3.0,
     "description": "Diseño metálico y ergonómico.",
@@ -211,7 +179,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "24",
     "name": "Minas 0.7mm 2B",
     "price": 1.2,
     "description": "Trazo más suave y oscuro.",
@@ -220,7 +187,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "25",
     "name": "Set Portaminasyminas",
     "price": 5.5,
     "description": "Incluye estuche, minas y goma.",
@@ -229,7 +195,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "26",
     "name": "Portaminas con Grip Antideslizante",
     "price": 2.5,
     "description": "Cómodo para largas sesiones.",
@@ -238,7 +203,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "27",
     "name": "Minas de Colores",
     "price": 1.5,
     "description": "Minas decorativas para dibujos.",
@@ -247,7 +211,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "28",
     "name": "Portaminas Kawaii Animalitos",
     "price": 2.3,
     "description": "Diseño adorable y funcional.",
@@ -256,7 +219,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "29",
     "name": "Minas Ecológicas",
     "price": 1.3,
     "description": "Hechas con materiales reciclables.",
@@ -265,7 +227,6 @@ const product = [
     "category": "Portaminasyminas"
   },
   {
-    "id": "30",
     "name": "Portaminas Técnico de Precisión",
     "price": 6.0,
     "description": "Para dibujo técnico y arquitectura.",
@@ -273,9 +234,7 @@ const product = [
     "img": "https://i.postimg.cc/1Xzn8fqC/portaminasyminas-10.webp",
     "category": "Portaminasyminas"
   },
-    // Cuadernoskawaii (id 31–40)
   {
-    "id": "31",
     "name": "Cuaderno Kawaii Gato",
     "price": 7.5,
     "description": "Cuaderno con diseño de gatito tierno.",
@@ -284,7 +243,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "32",
     "name": "Cuaderno Kawaii Panda",
     "price": 7.5,
     "description": "Cuaderno adorable con portada de panda.",
@@ -293,7 +251,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "33",
     "name": "Cuaderno Arcoíris Pastel",
     "price": 8.0,
     "description": "Páginas decoradas con colores suaves.",
@@ -302,7 +259,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "34",
     "name": "Set de Cuadernos Mini",
     "price": 10.0,
     "description": "Incluye 3 cuadernos pequeños con diseños kawaii.",
@@ -311,7 +267,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "35",
     "name": "Cuaderno Kawaii Unicornios",
     "price": 7.8,
     "description": "Ideal para escribir sueños y notas.",
@@ -320,7 +275,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "36",
     "name": "Cuaderno Kawaii Helado",
     "price": 6.5,
     "description": "Diseño dulce para tus ideas.",
@@ -329,7 +283,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "37",
     "name": "Cuaderno de Estrellas",
     "price": 7.0,
     "description": "Tapa dura con diseño nocturno.",
@@ -338,7 +291,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "38",
     "name": "Cuaderno Frutas Felices",
     "price": 6.8,
     "description": "Diseño fresco y divertido.",
@@ -347,7 +299,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "39",
     "name": "Cuaderno Kawaii Conejito",
     "price": 7.2,
     "description": "Portada con orejas sobresalientes.",
@@ -356,7 +307,6 @@ const product = [
     "category": "Cuadernoskawaii"
   },
   {
-    "id": "40",
     "name": "Cuaderno de Nubes Kawaii",
     "price": 7.4,
     "description": "Ideal para notas escolares.",
@@ -367,7 +317,6 @@ const product = [
 
   // Agendasyplanificadores (id 41–50)
   {
-    "id": "41",
     "name": "Agenda 2025 Floral",
     "price": 15.0,
     "description": "Agenda con calendario mensual y semanal.",
@@ -376,7 +325,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "42",
     "name": "Planificador Semanal Magnético",
     "price": 12.0,
     "description": "Ideal para pegar en la refrigeradora.",
@@ -385,7 +333,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "43",
     "name": "Agenda de Bolsillo Kawaii",
     "price": 9.5,
     "description": "Compacta y portátil con diseño tierno.",
@@ -394,7 +341,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "44",
     "name": "Agenda Académica",
     "price": 13.0,
     "description": "Pensada para el año escolar.",
@@ -403,7 +349,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "45",
     "name": "Planificador Diario Minimalista",
     "price": 11.0,
     "description": "Diseño limpio con secciones útiles.",
@@ -412,7 +357,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "46",
     "name": "Agenda Unicornio 2025",
     "price": 14.0,
     "description": "Diseño kawaii con stickers incluidos.",
@@ -421,7 +365,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "47",
     "name": "Planificador con Anillas",
     "price": 10.5,
     "description": "Puedes añadir y quitar hojas fácilmente.",
@@ -430,7 +373,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "48",
     "name": "Agenda Ejecutiva Negra",
     "price": 16.0,
     "description": "Diseño sobrio y elegante.",
@@ -439,7 +381,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "49",
     "name": "Set de Stickers para Agendas",
     "price": 5.0,
     "description": "Dale color a tu planificación.",
@@ -448,7 +389,6 @@ const product = [
     "category": "Agendasyplanificadores"
   },
   {
-    "id": "50",
     "name": "Agenda con Separadores",
     "price": 12.5,
     "description": "Cada mes con diseño diferente.",
@@ -456,10 +396,7 @@ const product = [
     "img": "https://i.postimg.cc/SQtjZQ84/agendasyplanificadores-10.webp",
     "category": "Agendasyplanificadores"
   },
-
-  // Notebooks (id 51–60)
   {
-    "id": "51",
     "name": "Notebook Clásico A5",
     "price": 8.0,
     "description": "Tamaño ideal para notas rápidas.",
@@ -468,7 +405,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "52",
     "name": "Notebook Cuadrícula",
     "price": 8.5,
     "description": "Perfecto para matemáticas o diseño.",
@@ -477,7 +413,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "53",
     "name": "Notebook de Cuero",
     "price": 18.0,
     "description": "Elegante y duradero.",
@@ -486,7 +421,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "54",
     "name": "Notebook con Banda Elástica",
     "price": 9.0,
     "description": "Cierra fácilmente para llevar.",
@@ -495,7 +429,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "55",
     "name": "Notebook con Separadores",
     "price": 10.5,
     "description": "Organiza tus temas por colores.",
@@ -504,7 +437,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "56",
     "name": "Notebook Liso Artístico",
     "price": 9.0,
     "description": "Ideal para dibujos o bocetos.",
@@ -513,7 +445,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "57",
     "name": "Notebook con Espiral",
     "price": 8.2,
     "description": "Fácil de abrir completamente.",
@@ -522,7 +453,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "58",
     "name": "Notebook Reutilizable",
     "price": 20.0,
     "description": "Escribe y borra con paño húmedo.",
@@ -531,7 +461,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "59",
     "name": "Notebook de Tapa Dura",
     "price": 11.0,
     "description": "Más resistencia para uso diario.",
@@ -540,7 +469,6 @@ const product = [
     "category": "Notebooks"
   },
   {
-    "id": "60",
     "name": "Notebook Vintage",
     "price": 13.5,
     "description": "Estilo clásico y elegante.",
@@ -550,7 +478,6 @@ const product = [
   },
 // Carpetasyarchivadores (id 61–70)
   {
-    "id": "61",
     "name": "Carpeta de Cartón A4",
     "price": 4.5,
     "description": "Carpeta económica para documentos.",
@@ -559,7 +486,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "62",
     "name": "Archivador de Palanca",
     "price": 9.0,
     "description": "Para archivar gran cantidad de hojas.",
@@ -568,7 +494,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "63",
     "name": "Carpeta Plástica Transparente",
     "price": 5.5,
     "description": "Ligera y resistente.",
@@ -577,7 +502,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "64",
     "name": "Carpeta con Broche Metálico",
     "price": 6.0,
     "description": "Para asegurar tus hojas.",
@@ -586,7 +510,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "65",
     "name": "Archivador con Lomo Ancho",
     "price": 10.0,
     "description": "Ideal para oficina.",
@@ -595,7 +518,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "66",
     "name": "Carpeta Escolar Decorada",
     "price": 5.0,
     "description": "Diseños para niños y adolescentes.",
@@ -604,7 +526,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "67",
     "name": "Carpeta con Elástico",
     "price": 4.8,
     "description": "Cierre seguro para transportar.",
@@ -613,7 +534,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "68",
     "name": "Archivador de Tela",
     "price": 11.5,
     "description": "Durabilidad y estilo.",
@@ -622,7 +542,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "69",
     "name": "Carpeta Tipo Sobre",
     "price": 3.5,
     "description": "Fácil para documentos sueltos.",
@@ -631,7 +550,6 @@ const product = [
     "category": "Carpetasyarchivadores"
   },
   {
-    "id": "70",
     "name": "Carpeta con Fundas Internas",
     "price": 7.0,
     "description": "Ideal para organizar hojas sueltas.",
@@ -639,10 +557,7 @@ const product = [
     "img": "https://i.postimg.cc/MZ4K7P2K/carpetasyarchivadores-10.webp",
     "category": "Carpetasyarchivadores"
   },
-
-  // Foldersysobres (id 71–80)
   {
-    "id": "71",
     "name": "Folder Manila A4",
     "price": 2.0,
     "description": "Clásico para presentar trabajos.",
@@ -651,7 +566,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "72",
     "name": "Folder de Cartón Reforzado",
     "price": 2.5,
     "description": "Mayor resistencia.",
@@ -660,7 +574,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "73",
     "name": "Sobre Manila Grande",
     "price": 1.8,
     "description": "Para transportar documentos A4.",
@@ -669,7 +582,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "74",
     "name": "Folder con Broche Metálico",
     "price": 3.0,
     "description": "Para sujetar documentos.",
@@ -678,7 +590,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "75",
     "name": "Sobre Plástico con Botón",
     "price": 2.2,
     "description": "Cierre seguro.",
@@ -687,7 +598,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "76",
     "name": "Folder con Ventana",
     "price": 2.6,
     "description": "Muestra el contenido.",
@@ -696,7 +606,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "77",
     "name": "Sobre Plástico A5",
     "price": 1.5,
     "description": "Ideal para recibos o tarjetas.",
@@ -705,7 +614,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "78",
     "name": "Folder Escolar Decorado",
     "price": 2.8,
     "description": "Diseños infantiles.",
@@ -714,7 +622,6 @@ const product = [
     "category": "Folders y sobres"
   },
   {
-    "id": "79",
     "name": "Sobre Kraft",
     "price": 1.6,
     "description": "Resistente y reciclable.",
@@ -723,7 +630,6 @@ const product = [
     "category": "Foldersysobres"
   },
   {
-    "id": "80",
     "name": "Sobre con Cierre Zip",
     "price": 3.2,
     "description": "Protección extra contra humedad.",
@@ -731,10 +637,7 @@ const product = [
     "img": "https://i.postimg.cc/3w6bSvKp/foldersysobres-10.webp",
     "category": "Foldersysobres"
   },
-
-  // Cartucheras (id 81–90)
   {
-    "id": "81",
     "name": "Cartuchera Kawaii Panda",
     "price": 7.5,
     "description": "Suave y tierna.",
@@ -743,7 +646,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "82",
     "name": "Cartuchera Transparente",
     "price": 6.0,
     "description": "Permite ver su contenido.",
@@ -752,7 +654,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "83",
     "name": "Cartuchera de Tela",
     "price": 5.5,
     "description": "Resistente y lavable.",
@@ -761,7 +662,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "84",
     "name": "Cartuchera Doble Compartimiento",
     "price": 8.0,
     "description": "Más espacio para tus útiles.",
@@ -770,7 +670,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "85",
     "name": "Cartuchera Cilíndrica",
     "price": 6.8,
     "description": "Diseño moderno y compacto.",
@@ -779,7 +678,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "86",
     "name": "Cartuchera con Estuche Rígido",
     "price": 9.0,
     "description": "Protección extra.",
@@ -788,7 +686,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "87",
     "name": "Cartuchera Licencia (Hello Kitty)",
     "price": 10.5,
     "description": "Diseño oficial.",
@@ -797,7 +694,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "88",
     "name": "Cartuchera con Asa",
     "price": 7.2,
     "description": "Fácil de transportar.",
@@ -806,7 +702,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "89",
     "name": "Cartuchera Animal Print",
     "price": 7.0,
     "description": "Estilo único.",
@@ -815,7 +710,6 @@ const product = [
     "category": "Cartucheras"
   },
   {
-    "id": "90",
     "name": "Cartuchera Multifunción",
     "price": 9.5,
     "description": "Espacios internos organizadores.",

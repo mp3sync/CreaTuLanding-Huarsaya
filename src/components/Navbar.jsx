@@ -33,7 +33,9 @@ function NavbarReactBootstrap() {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-        <CartWidget/>
+        <NavLink to='/cart' style={{textDecoration: 'none'}}>
+          <CartWidget/>
+          </NavLink>
       </Container>
     </Navbar>
   );

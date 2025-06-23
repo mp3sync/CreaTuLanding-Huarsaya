@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { formatPrice } from '../components/utils/formatPrice';
 
 const Item = ({ prod }) => {
+  
   return (
     <div className="card" style={{width: '18rem'}}>
         <img src={prod.img} className='card-img-top' alt={prod.name} />
         <div className="card-body">
-           <h5 className="card-title">{prod.name}</h5>
-           <p className="card-text">{prod.price}</p>
-          <Link to={`/item/${prod.id}`} className="btn btn-primary">Ver más</Link>
+        <h5 className="card-title">{prod.name}</h5>
+        <p className="card-text">{formatPrice(prod.price)}</p>
+        <Link to={`/item/${prod.id}`} className="btn btn-primary">Ver más</Link>
         </div>
     </div>
   )

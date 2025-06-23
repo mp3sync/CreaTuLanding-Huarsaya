@@ -1,11 +1,17 @@
-
 import { Badge } from "react-bootstrap";
+import { useContext } from "react";
+
+import { CartContext } from "../context/CartContext";
 
 const CartWidget = () => {
-    return (
+const {cartQuantity}=useContext(CartContext)
+
+
+
+     return (
       <div>
         <img src="/cartwidget.svg" alt="Cart Icon" />
-        <Badge bg="warning" text="dark"> 3 </Badge>
+        {cartQuantity() > 0 && <Badge bg="warning" text="dark"> {cartQuantity()} </Badge>}
         
       </div>
     );

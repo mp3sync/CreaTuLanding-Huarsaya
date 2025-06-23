@@ -22,16 +22,20 @@ const ItemCount = ({ stock, onAdd }) => {
 
 
      }
-  return (
-    <div>
-      <div>
-        <button className='btn btn-danger' onClick={restar} >-</button>
-        <span className='btn'>{count}</span>
-        <button className='btn btn-success' onClick={sumar}>+</button>
-      </div>
-      <button className='btn btn-primary' onClick={comprar}>Agregar al carrito</button>
+ return (
+  <div style={{ padding: '10px' }}>
+  
+    <div className="d-flex align-items-center justify-content-center gap-2 mb-3">
+      <button className="btn btn-danger" onClick={restar}>-</button>
+      <span className="btn">{count}</span>
+      <button className="btn btn-success" onClick={sumar}>+</button>
     </div>
-  )
+
+    <button className="btn btn-primary" onClick={comprar}>
+      Agregar al carrito
+    </button>
+  </div>
+);
 }
 
 export default ItemCount
